@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "BrajYatra"
+    }
+  },
+  "defaultProject": "BrajYatra",
+  "cli": {
+    "analytics": "186c82ac-2c42-48be-83ae-0c5cf591748c"
+  }
 }

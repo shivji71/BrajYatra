@@ -1,0 +1,15 @@
+
+    <carousel
+    [cellsToShow]="1"
+    [loop]="true"
+    [autoplay]="true"
+    [autoplayInterval]="3000"
+    [height]="800">
+    <ng-container *ngFor="let image of crouselImgList; index as i">
+		<div class="carousel-cell">
+
+			<img class="cc" src="{{image.path}}" />
+		</div>
+	</ng-container>
+</carousel>
+

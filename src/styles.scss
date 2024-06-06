@@ -1,1 +1,100 @@
 /* You can add global styles to this file, and also import other style files */
+
+body{
+    margin: auto;
+    font-family: Open Sans, sans-serif;
+}
+.header-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #616161;
+    height: 60px;
+    
+}
+.header-container .left {
+    display: flex;
+    position: absolute;
+    left: 0;
+}
+.header-container .center {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.header-container .right {
+    display: flex;
+    position: absolute;
+    right: 0;
+}
+
+.header-container .left button {
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    background: #616161;
+    color: white;
+    transition: transform .3s;
+    font-size: 22px;
+}
+.header-container .center button {
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    background: #616161;
+    color: white;
+    transition: transform .3s;
+    font-size: 22px;
+}
+.header-container .right button {
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    background: #616161;
+    color: white;
+    transition: transform .3s;
+    font-size: 22px;
+
+}
+
+.header-container .left button:hover {
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    background: #727070;
+    color: white;
+    border-radius: 50%;
+    border-radius: 8%;
+    font-size: 16px;
+    transform: scale(1.1);
+    font-size: 22px;
+}
+.header-container .center button:hover {
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    background: #727070;
+    color: white;
+    border-radius: 50%;
+    border-radius: 8%;
+    font-size: 16px;
+    transform: scale(1.1);
+    font-size: 22px;
+}
+.header-container .right button:hover {
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    background: #727070;
+    color: white;
+    border-radius: 50%;
+    border-radius: 8%;
+    font-size: 16px;
+    transform: scale(1.1);
+    font-size: 22px;
+}
